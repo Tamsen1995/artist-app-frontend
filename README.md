@@ -19,3 +19,7 @@ npm install
 To run the development server:
 
 npm run dev
+
+In order to run tests:
+
+npm run test
