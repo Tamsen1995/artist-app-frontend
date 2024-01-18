@@ -78,9 +78,8 @@ const CreateAlbum: React.FC = () => {
         <ul>
           {artists.map((artist) => (
             <li
-              key={artist.id}
+              key={artist.artist_id}
               onClick={() => {
-                console.log("artist: ", artist);
                 setSelectedArtistId(artist.artist_id);
               }}
             >
